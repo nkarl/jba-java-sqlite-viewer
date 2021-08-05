@@ -3,11 +3,11 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/510751/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Sun, 01 Aug 2021 05:25:02 UTC
+update_date: Thu, 05 Aug 2021 17:00:02 UTC
 stages:
 - id: 885
   step: 12770
-  is_completed: false
+  is_completed: true
 - id: 886
   step: 12771
   is_completed: false
@@ -23,6 +23,8 @@ topics:
     theory_id: 3739
   - title: JVM, JRE, and JDK
     theory_id: 3499
+  - title: Introduction to UI/UX
+    theory_id: 14603
   - title: The basic window in Swing
     theory_id: 5514
   - title: Swing components
