@@ -30,3 +30,4 @@ public class SQLiteViewer extends JFrame {
         add(openButton);
     }
 }
+
