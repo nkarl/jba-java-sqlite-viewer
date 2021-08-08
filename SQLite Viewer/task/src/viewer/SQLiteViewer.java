@@ -1,6 +1,7 @@
 package viewer;
 
 import javax.swing.*;
+import java.awt.FlowLayout;
 
 public class SQLiteViewer extends JFrame {
 
@@ -8,11 +9,11 @@ public class SQLiteViewer extends JFrame {
         super("SQLite Viewer");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(700, 900);
-        setLayout(null);
         setResizable(false);
         setLocationRelativeTo(null);
 
         initApp();
+        setLayout(new FlowLayout(FlowLayout.LEFT, 20, 10));
         setVisible(true);
     }
 

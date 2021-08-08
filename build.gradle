@@ -20,6 +20,10 @@ subprojects {
         implementation 'org.xerial:sqlite-jdbc:3.34.0'
     }
 
+    //application {
+        //mainClass = "SQLite Viewer/src/main/viewer/ApplicationRunner"
+    //}
+
     configurations.all {
         resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
     }

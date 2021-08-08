@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 public class CoolJDBC {
     public static void main(String[] args) {
-        String url = "jdbc:sqlite:MyTest.db";
+        String url = "jdbc:sqlite:MyTest01.db";
         
         SQLiteDataSource dataSource = new SQLiteDataSource();
         dataSource.setUrl(url);
